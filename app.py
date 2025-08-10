@@ -8,6 +8,8 @@ lemmatizer=WordNetLemmatizer()
 from nltk.tokenize import word_tokenize
 from gensim.utils import simple_preprocess
 import pandas as pd
+import nltk
+nltk.download('wordnet')
 
 app = Flask(__name__)
 
